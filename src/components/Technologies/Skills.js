@@ -1,37 +1,36 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
+import { DiReact,DiJavascript , DiCss3 } from "react-icons/di";
+import { SiGit , SiCplusplus , SiAmazonaws } from "react-icons/si";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    slug: "react",
+    Component: DiReact,
+    title: "React",
+    Description: () => <>I work on front-end using React.</>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    slug: "javscript",
+    Component: DiJavascript,
+    title: "Javascript",
+    Description: () => <>I can code in javascript , do basic front-end stuff with it . </>,
   },
   {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
+    slug: "CSS",
+    Component: DiCss3,
+    title: "CSS",
+    Description: () => <>I do write CSS for my front-end projects.</>,
   },
   {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
+    slug: "C++",
+    Component: SiCplusplus ,
+    title: "C++",
+    Description: () => <>I can code in C++. But I mainly use it for leetcode question.</>,
   },
   {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
+    slug: "aws",
+    Component: SiAmazonaws,
+    title: "AWS",
+    Description: () => <>I have used AWS for deploying my python twitter-telegram bot.</>,
   },
   {
     slug: "git",
